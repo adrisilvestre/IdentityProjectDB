@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="81e77fffa98840e0a1d6bcf28c6f08ce" Name="Diagram1">
+        <EntityTypeShape EntityType="SQLDBModel.Address" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.AspNetUsers" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.Packages" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.Shippers" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SQLDBModel.Status" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SQLDBModel.FK_Shippers_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.FK_Packages_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.FK_Packages_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.PackageUser" ManuallyRouted="false" />
+        <AssociationConnector Association="SQLDBModel.User_Address" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
